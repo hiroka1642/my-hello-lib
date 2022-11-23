@@ -1,14 +1,14 @@
 // 型定義のインポート
-import { Config } from "@jest/types";
+import { Config } from '@jest/types';
 
 // オプションを設定
 const config: Config.InitialOptions = {
   // Jest の設定のベース
-  preset: "ts-jest",
+  preset: 'ts-jest',
   // test ファイルの置き場所
-  testMatch: ["<rootDir>/tests/**/*.test.ts"],
+  testMatch: ['<rootDir>/tests/**/*.test.ts'],
   // Node.js 環境向けにテストする
-  testEnvironment: "node",
+  testEnvironment: 'node',
   // カバレッジ（テストコードの捕捉率）を収集する
   collectCoverage: true,
 };
