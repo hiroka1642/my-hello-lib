@@ -21,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=14"
+  },
   "devDependencies": {
     "@jest/types": "^29.3.1",
     "@types/jest": "^29.2.3",
