@@ -1,0 +1,8 @@
+{
+  // extends 配列では、後ろに記述されるものほど優先度が高くなる
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ]
+}
