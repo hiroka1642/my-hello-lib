@@ -1,0 +1,14 @@
+{
+  //src ディレクトリ内の TS ファイルをコンパイルし、 dist ディレクトリへ CommonJS 形式のモジュールとして出力する
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
